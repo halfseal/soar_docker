@@ -39,7 +39,7 @@ cd catkin_point_lio_unilidar
 source devel/setup.bash
 roslaunch point_lio_unilidar mapping_unilidar.launch
 ```
-### to offboard controll
+### to offboard control
 ```bash
 source ~/.bashrc
 roslaunch offboard_py start_offb.launch
