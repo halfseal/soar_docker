@@ -5,6 +5,7 @@
 sudo docker build -t soar:2.0 .
 ```
 
+
 ## how to run
 ```bash
 xhost +si:localuser:root
@@ -16,6 +17,7 @@ note: you need to custom
 ```
 to your own directory. It's just for me.
 
+
 ## how to add terminal
 ```bash
 docker exec -it 프로세스ID bash
@@ -25,6 +27,7 @@ and you can search 프로세스ID by
 docker ps
 ```
 
+
 ---
 ## in container,
 ### to run unilidar
@@ -33,12 +36,16 @@ cd unilidar_sdk/unitree_lidar_ros
 source devel/setup.bash
 roslaunch unitree_lidar_ros run_without_rviz.launch
 ```
+
+
 ### to run pointlio
 ```bash
 cd catkin_point_lio_unilidar
 source devel/setup.bash
 roslaunch point_lio_unilidar mapping_unilidar.launch
 ```
+
+
 ### to offboard control
 ```bash
 source ~/.bashrc
